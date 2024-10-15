@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "App for creating an in depth readme",
+  "main": "\\",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sbaird22/README-generator.git"
+  },
+  "author": "Shane Baird",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbaird22/README-generator/issues"
+  },
+  "homepage": "https://github.com/sbaird22/README-generator#readme",
+  "dependencies": {
+    "inquirer": "^12.0.0"
+  }
+}
