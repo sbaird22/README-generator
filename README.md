@@ -6,9 +6,9 @@ Use node.js installer to get node. Then use inquirer to install the needed depen
 
 ## Usage
 node.js
-npm install inquirer
-run node index.js to initiate the app's prompts
-Review the file created
+npm install inquirer-
+run node index.js to initiate the app's prompts-
+Review the file created-
 Push to the repo you need the readme for
 
 ## Contributing
