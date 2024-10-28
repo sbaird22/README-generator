@@ -36,10 +36,8 @@ if (license){
 
 
 const generateReadme= ({title, description, installation, usage, contributing, tests, username, email, license, repo}) =>
-    `## Title
-    ${title}
-
-    ## Description
+    `
+    # ${title}
     ${description}
 
     ## Table of contents
@@ -134,7 +132,7 @@ inquirer
         const readmePageContent = generateReadme(response);
 
 
-        fs.writeFile("README", readmePageContent, (err)=>
+        fs.writeFile("README2.md", readmePageContent, (err)=>
         err ? console.log(err) : console.log("successfully created README file!")
     );
 });
